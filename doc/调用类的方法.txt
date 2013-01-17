@@ -1,0 +1,131 @@
+下面只提供了操作类的接口，实现部分已经封闭了
+
+修改   OnlineSQL 中的 $Debug 值确定是否进入调试状态，1 -〉调试状态  ，0 -〉成品阶段
+
+OnlineSQL类
+
+OnlineSQL()                                     // 提供连接数据库操作
+
+jiami($password)				// 返回一个加密后的字符串
+
+		
+
+User 类  extends OnlineSQL()
+
+new User($username)    				// 通过username获得一个用户类
+
+并因此可以进行以下操作：
+
+getUserID()   					// 通过内部username访问数据库，返回id
+
+find_department_class_id($department)   	// 通过department名字返回它的类别在数据库总的编号
+
+get_id()      					// 返回类中存储的用户的id
+
+get_username()  				// return username
+
+get_password()  				// 返回类中存储的密码
+
+get_sex()           				// return sex
+
+get_tel()					// return telnumber
+
+get_qq()					// return qq number
+
+get_birthday()					// return birthday date
+
+get_realname()					// 返回用户的真实名字
+
+get_department()				// return user's department 's value
+
+GetIP() 					// 与数据库无关的获取用户ip
+
+find_department_class_id($department)		// 通过department的值返回数据库中部门名的id
+
+
+User_Created类   extends User
+
+new User_Created($school_number,$username,$password,$sex,$tel,$qq,$birthday,$realname,$department); 
+						// 创建一个用户
+
+add_to_user()					// 将信息添加入数据库online_user中
+
+add_to_department()				// 将信息添加入数据库online_department中
+
+add_to_user_stat()				// 将信息添加入数据库online_user_stat中
+
+
+实现用户信息修改：
+
+User_Information_Edit extends User
+
+User_Information_Edit($username)		//通过用户名字返回一个可以修改数据库信息的类
+
+继承自user，可以使用user中的功能
+
+school_number_update($school_number)		//直接将school_number修改成$school_number值
+
+password_update($new_password,$old_password)    //验证old_password，修改成new_password
+
+sex_update($sex)				//直接修改成$sex
+
+qq_update($qq)					//直接修改成$qq
+
+tel_update($tel)				//直接修改成$tel
+
+realname_update($realname)			//directly change to $realname
+
+birthday_update($birthday)			//directly change to $birthday
+
+department_update($department)			//directly change to $department
+						  在数据库online_department中
+
+用户状态信息
+
+User_Stat类
+
+User_Stat($username)				// 每次通过$username调用该类，都会自动更新
+
+继承自User类 可使用其中的功能
+
+get_login_ip()					// 获得类中的用户Ip
+
+get_login_time()				// return the value in the class
+
+get_login_count()				// 返回用户登录次数
+
+get_summary()					// 返回用户账号状态信息
+
+summary_update($summary)			// 通过summary直接修改用户状态信息
+
+
+部门类:
+
+Department_Class extends OnlineSQL
+
+Department_Class($department_name)		// 通过$department_name值，获得一个部门的信息
+
+get_id()					// 返回类中存储的部门id
+
+get_department_name()				// 返回类中存储的部门名字
+
+get_set_time()					// 返回保存的部门创立时间
+
+get_set_person_name()				// 返回数据库中创立者的名字
+
+get_principal_name()				// 返回数据中部门负责人的名字
+
+get_summary()					// 返回类中存储的部门信息
+
+get_inf($id)					// 通过$id返回一个数据库中的对象,来返回其他的值
+
+get_department_inf($department_name)		// 通过$department_name返回department_class对象
+
+创建部门类:
+
+class Department_Created extends Department_Class 
+
+Department_Created($dep_name,$dep_time,$dep_c_name,$dep_pri_name,$dep_summary)
+						
+						// 创建连入数据库
+
