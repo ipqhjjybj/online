@@ -1,0 +1,113 @@
+/*-------修改人：沈卓亨-------------
+  -------2012年10月19日-------------
+  -------修改次数:1  ---------------
+ */
+class OnlineSQL{
+	function disconnect(){  //假如未连接成功,返回Ture,否则返回false
+		
+	}
+	function connect(){          // 数据库连接
+		if($this -> disconnect())     //如果没有连接	
+		{
+
+		}
+		else{
+
+		}
+	}
+	function OnlineSQL(){        // 数据库预先执行命令
+		
+		$this -> connect();
+	}	
+}
+//分类系统
+class Classfy extends OnlineSQL{   //分类的数目  超级管理员权限
+	classfy_add();   //分类添加
+	classfy_delete();   //分类删除
+	classfy_edit();    //分类编辑
+	
+	function Classfy()		//初始化
+	{
+		$this -> OnlineSQL();
+	}
+}
+//部门系统
+class Department extends OnlineSQL{
+	function department_add(){      //部门添加      超级管理员
+		
+	}
+	function department_delete(){    //部门删除     超级管理员
+
+	}
+	function department_edit(){      //部门编辑	超级管理员，部门负责人
+
+	}
+
+	function department_list(){	//实现分页
+
+	}
+	
+	function Department(){		//初始化
+		$this -> OnlineSQL();
+	}
+}
+class Department_infomation extends OnlineSQL{ 		//具体部门基础信息
+	var $Department_id;                 //   部门ID....估计会增加信息
+	function <AA>_updata(){               //   <AA> 代表其中的信息,如可以试 school_number 
+
+	}
+	
+	function Department_infomation(){   //  此类初始化
+		$this -> OnlineSQL();
+
+	}
+}
+class DepartmentTechnology extends Department_infomation{
+	
+}// 还有其他的像设计部，办公室之类的。。。特殊化设计
+
+class DepartmentDesigner extends Department_infomation{
+
+}//   ---- 省略掉一部分。。
+//新闻系统
+class News extends OnlineSQL{
+	function news_add();        // 新闻的增加
+	function news_delete();     // 新闻的删除
+	function news_edit();       // 新闻的编辑
+	function news_display();	//新闻展示，会增加分页功能
+
+	function News(){
+		$this -> OnlineSQL();
+	}
+}
+class News_infomation extends OnlineSQL{
+	var $News_id;                    //  新闻ID....应该会增加信息
+}
+
+//用户系统的设计
+class User extends OnlineSQL{
+	var $school_number,$username,$password,$sex,$tel,$qq,$birthday;  // school_number 学号
+	function add_to_sql(){		//插入数据库
+
+	}
+	function User($school_number,$username,$password,$sex,$tel,$qq,$birthday)
+	{
+		$this -> OnlineSQL();
+
+		$this -> $school_number = $school_number;
+		$this -> $username = $username;
+		$this -> $password = $password;
+		$this -> $sex = $sex;
+		$this -> $tel = $tel;
+		$this -> $qq = $qq;
+		$this -> $birthday = $birthday;
+		
+		$this -> add_to_sql();
+	}
+}
+class User_stat extends User{           //用户状态
+	function User_stat(){
+		$this -> OnlineSQL();    //此句可能有错。。。。。没试过，打个标记
+	}
+}
+//原先设计的数据库还有 活动系统跟文章系统。。。后来发现多余，可能以后会用到吧。就不删除了

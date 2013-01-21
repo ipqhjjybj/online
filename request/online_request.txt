@@ -1,0 +1,20 @@
+class department{
+	function department_add();
+	function department_delete();
+	function department_edit();
+	function department_list();
+}
+
+class classfy{   //新闻的分类  超级管理员权限
+	calaglories_classfy();   //超级管理员权限
+	calaglories_classfy();//超级管理员权限
+	calaglories_classfy();
+}
+class news{
+	function news_add();   
+	function news_delete();
+	function news_edit();
+	function news_display();
+}
+
+class 

@@ -1,0 +1,35 @@
+
+.menu-box {
+    position: relative;
+    right: 0;
+    float: right;
+}
+
+#menu-btn.active {
+    background-color: white;
+}
+
+.fixed-menu {
+    position: absolute;
+    right: 0;
+    top: 1.5em;
+    width: 8em;
+    -webkit-transition: opacity 500ms ease-out 100ms;
+    opacity:0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.fixed-menu.active {
+    background-color: white;
+    opacity: 1;
+}
+
+.fixed-menu a {
+    display: block !important;
+    width: 100%;
+}
+
+.related {
+    cursor: pointer;
+}
