@@ -1,0 +1,461 @@
+@charset "utf-8";
+/* CSS Document */
+/* 这里是页面的基础设置。特殊的在其他页面*/
+/**
+ *	这里为注册界面设计
+ */
+img{
+	border:none;	
+}
+.left_name{
+	color: #C28D1C;
+}
+.check_fail{
+	background-color: #F0D1D1;
+	color: #EE4747;
+	
+}
+.check_before{
+	background-color: rgba(145, 243, 235, 0.34);
+	color: #1F0099;
+}
+.check_success{
+	background-color: #3DCA98;
+	color: white;
+}
+/**
+ *以下为替 logo与登陆界面设置
+ */
+body{
+	background-color: #efece7;
+}
+div#out{
+	margin:0px auto;
+	height:1000px;
+	min-width: 1000px;
+	max-width: 1366px;
+	width: 100%;
+
+}
+/*
+ *以下为登录部分
+ */
+div#login_id{
+	height:30px;
+	background-color:#efece7;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#5A7699;
+	font-size:14px;
+}
+div#login_id input{
+	border:none;
+	size:10;
+}
+div#login{
+	height:32px;
+	overflow: hidden;
+	border-top: 1px solid #339AFF;
+	border-bottom: 1px solid #339AFF;
+	background-image:url(../image/login32px.jpg);
+	position:relative;
+}
+#login img{
+	height:26px;
+}
+div#login input{
+	width:85px;
+	height:15px;	
+}
+div#login.u_name{
+	position:relative;
+	margin-left:716px;
+	margin-top:6px;
+
+}
+div#login.p_word{
+	position:relative;
+	margin-left:835px;
+	margin-top:6px;
+
+}
+div#login.submit{
+	position:relative;
+	margin-left:927px;
+	margin-top:6px;	
+
+}
+div#login.reg{
+	position:relative;
+	margin-left:987px;
+	margin-top:6px;
+
+}
+div#logo{
+	height:191px;
+	background-color:#c4ddbc;
+	overflow: hidden;
+	border-top: 1px solid #9BBCDF;
+	border-bottom: 1px solid #A0BCD8;
+}
+div#content{
+	position:relative;
+	width:100%;
+	height:772px;
+	float:left;
+}
+
+/**
+ *以下替几个图标设置的CSS
+ */
+div#mid_sign{
+	cursor:pointer; 
+	margin:0px auto;
+	margin-top:20px;
+	margin-left:5%;
+	position:relative;
+	float:left;
+	width:90%;
+	float:left;
+}
+.sign{
+	width:16%;
+	height:100px;
+	float:left;
+}
+div#index{
+	
+}
+div#news{
+
+}
+div#photo{
+	
+}
+div#us{
+
+}
+div#link{
+	
+}
+div#others{
+	
+}
+/*
+ *	以下为导航条部分
+ */
+div#cur_position{
+	position:relative;
+	width:100%;
+	height:40px;
+	float:left;	
+	margin-left:-300px;
+}
+/*
+ *	以下为index_content部分，即主页的主要内容
+ */
+div#index_content{
+	margin-left: 20%;
+	width: 60%;
+	background-color: rgba(211, 191, 116, 0.89);
+	height: 413px;
+	position: relative;
+	float: left;
+}
+.content_decorate{
+	display:none;
+}
+div#con_left{
+	background-color:#999;	
+	height:25px;
+}
+.department{
+	font-family:"Times New Roman", Times, serif;
+	cursor:pointer;
+	display:block;
+	font-size:15px;
+	margin-left:5px;
+	background:#009;
+	position:relative;
+	width:90px;
+	height:20px;
+	float:left;	
+	padding-top:5px;
+}
+h3{
+	margin:-5px;	
+}
+div#online_dep{
+	background-color:#CFAF2F;
+	color:#F60;
+}
+div#dep_office{
+	background-color:#8CD5D5;
+	color:#2B3174;
+}
+div#dep_press{
+	background-color: #5CCF51;
+	color: #0E5F15;
+}
+div#dep_plan{
+	background-color:#CE59BB;
+	color:#F60;
+} 
+div#dep_technique{
+	background-color: #24B1B1;
+	color: #24558A;
+}
+div#dep_design{
+	background-color: #1081AD;
+	color: #00ADFF;
+}
+div#dep_maintain{
+	color: #F60;
+	background-color: #BB8787;
+}
+div#dep_propagate{
+	color: #2ECF5B;
+	background-color: #278080;
+}
+/*
+ *	以下为news_content部分，即新闻分页部分
+ */
+div#news_content{
+	position:relative;
+	width:1024px;
+	float:left;	
+}
+.img_display{
+	position:relative;
+	margin-left:20%;
+	z-index:2;
+	height:200px;
+}
+.news_display{
+	position:relative;
+	width:60%;
+	margin-left:20%;
+	margin-top:-200px;
+	height:200px;
+	background-repeat:no-repeat;
+	z-index:3;
+	
+}
+.news_summary{
+	
+}
+.time{
+	margin-left:-560px;
+}
+.news_info{
+	margin-left:340px;
+	margin-top:110px;
+}
+.news_info1{
+	margin-left:340px;
+	margin-top:250px;
+}
+.news_info span{
+
+}
+.news_info strong{
+	
+}
+#page_display{
+	margin-left:250px;	
+}
+/*
+ *	以下为news_display中的n_display部分
+ */
+div#n_display{
+	width:1024px;
+	height:450px;
+	position:relative;
+	float:left;
+	background-image:url(../image/news_display_content.png);
+	background-repeat:no-repeat;
+}
+div#news_title{
+	width:1024px;
+	height:100px;
+	position:relative;
+	float:left;	
+}
+div#news_title h2{
+	font:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#60C;
+}
+div#news_c{
+	width:1024px;
+	height:auto;
+}
+/*
+ *	以下为us_content内容 为us界面设计
+ */
+div#us_content{
+	width:60%;
+	min-width:500px;
+	margin-left:20%;
+	height:650px;
+	position:relative;
+	float:left;
+}
+div#us_content1{
+	width:100%;
+	min-width:500px;
+	margin-left:20%;
+	height:600px;
+	position:relative;
+	float:left;
+}
+div#us_content1 ul{
+	position:relative;
+	float:left;	
+	height:500px;
+}
+div#us_content1 li{
+	
+	position:relative;
+	width:151px;
+	height:151px;
+	float:left;
+	display:block;
+	list-style:none;	
+}
+div#us_content img{
+	width:100px;
+	height:100px;	
+}
+div#us_content1 img{
+	width:120px;
+	height:120px;	
+}
+div#search_content{
+	height:64px;
+	position:relative;
+	float:left;
+}
+div#us_display{
+	height:auto;
+	position:relative;
+	float:left;
+}
+div#us_display_fram{
+	width:60%;
+	height:auto;
+	left:120px;	
+}
+.department_class_display{
+	position:relative;
+	float:left;
+}
+.dep_show{
+	width:190px;
+	height:278px;
+	position:relative;
+	float:left;
+}
+div#us_content_footer{
+	height:17px;
+}
+/*
+ * 以下是photo页面的资料
+ */
+div#photo_content{
+	width:60%;
+	margin-left:20%;
+	height:auto;
+	position:relative;
+	float:left;
+}
+div#photo_head{
+	width:60%;
+	height:17px;
+	position:relative;
+	float:left;
+}
+div#photo_mid{
+	width:60%;
+	height:auto;
+	position:relative;
+	float:left;
+}
+div#photo_mid_fram{
+	width:50%;
+	height:445px;
+	position:relative;
+	margin-left:200px;	
+}
+
+.picture_class_display{
+	
+}
+.picture_class_display img{
+	width:100px;
+	height:100px;	
+}
+div#photo_mid #photo_class_name{
+	width:185px;
+	height:185px;
+	position:relative;
+	float:left;
+}
+div#photo_bottom{
+	width:60%;
+	height:29px;
+	position:relative;
+	float:left;
+}
+/**
+ * 以下为后台管理
+ */
+div#backmenu{
+	width:100%;
+	height:30px;
+	position:relative;
+	float:left;
+	background-color:#40C088;
+}
+.menu{
+	width:16%;
+	position:relative;
+	float:left;
+	height:20px;
+	margin-top:10px;
+}
+.menu a{
+	width:60%;
+	cursor:pointer; 
+	display:block;
+	color:#0F0;
+	text-decoration:none;
+}
+.menu a:link{
+	
+}
+.menu a:hover{
+	background-color:#09C;
+	color:#FFF;
+}
+/*
+ * news_backstage news_backstage_content
+ */
+div#news_backstage_content{
+	width:100%;
+	margin-left:0%;
+	float:left;
+}
+div#editor_id{
+	width:70%;
+	height:600px;	
+}
+
+#footer{
+	position:relative;
+	background-color:#dddcdc;
+	float:left;
+	width:100%;
+	height:26px;
+	color:#a6a5a5;
+	margin-top:-100px;
+}

@@ -1,8 +1,7 @@
 <?php
-	header("Content-Type: text/plain");
-	/*echo <<< EOF
-username: {$_POST['username']}
-password: {$_POST['password']}
-EOF;*/
-	echo "why!!!!!1";
+	header("Content-Type:text/html; charset=utf-8");
+	$username = urldecode($_POST['username']);
+	$password = urldecode($_POST['password']);
+	echo $username."<br/>".$password."<br/>";
+	echo "why!!!!!1<br/>";
 ?>

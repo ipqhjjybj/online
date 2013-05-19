@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery xmlns:media="http://search.yahoo.com/mrss/">	
+	<settings>
+		<mediaFolder type="large" media="video">video/</mediaFolder>
+		<mediaFolder type="thumbnail" media="video">wallimages/thumbs/</mediaFolder>
+		<mediaFolder type="large" media="swf">video/</mediaFolder>
+		<mediaFolder type="thumbnail" media="swf">video/thumbs/</mediaFolder>
+		<mediaFolder type="large" media="image">wallimages/</mediaFolder>
+		<mediaFolder type="thumbnail" media="image">wallimages/thumbs/</mediaFolder>
+	</settings>
+	<item>
+		<media:text>Fly Me To The Moon</media:text>
+		<media:content url="http://www.youtube.com/watch?v=eaV6LlU7WhE" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="flymetothemoon.jpg" />		
+	</item>
+	<item>
+		<media:text>Star Wars: The Clone Wars</media:text>
+		<media:content url="http://www.youtube.com/watch?v=jJ9Vp6lRJ90" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="clonewars.jpg" />	
+	</item>		
+	<item>
+		<media:text>WALL-E</media:text>
+		<media:content url="http://www.youtube.com/watch?v=mC86heBo0d4" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="walle.jpg" />		
+	</item>
+	<item>
+		<media:text>The Dark Knight</media:text>
+		<media:content url="http://www.youtube.com/watch?v=PNkPK9yuA9g" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="darkknight.jpg" />	
+	</item>	
+	<item>
+		<media:text>Gotham Knight</media:text>
+		<media:content url="http://www.youtube.com/watch?v=DTHrlkfCJE0" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="gothamnight.jpg" />		
+	</item>		
+	<item>
+		<media:text>The Spirit</media:text>
+		<media:content url="http://www.youtube.com/watch?v=j1F-97xJ33E" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="thespirit.jpg" />	
+	</item>
+	<item>
+		<media:text>Meet Dave</media:text>
+		<media:content url="http://www.youtube.com/watch?v=lJldAtrlxq8" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="meetdave.jpg" />	
+	</item>
+	<item>
+		<media:text>Get Smart</media:text>
+		<media:content url="http://www.youtube.com/watch?v=8MsbkQOxXAQ" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="getsmart.jpg" />		
+	</item>
+	<item>
+		<media:text>Iron Man Dave</media:text>
+		<media:content url="http://www.youtube.com/watch?v=SnXAnH_Y_iI" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="ironmandave.jpg" />
+	</item>
+	<item>
+		<media:text>Journey to the Center of the Earth</media:text>
+		<media:content url="http://www.youtube.com/watch?v=cq-maunyc9c" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="journeytothecenter.jpg" />	
+	</item>	
+	<item>
+		<media:text>Superhero</media:text>
+		<media:content url="http://www.youtube.com/watch?v=luTBVO7xqzc" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="superhero.jpg" />
+	</item>
+	<item>
+		<media:text>Doomsday</media:text>
+		<media:content url="http://www.youtube.com/watch?v=y7NYSLZ6CJs" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="doomsday.jpg" />
+	</item>
+	<item>
+		<media:text>Wanted</media:text>
+		<media:content url="http://www.youtube.com/watch?v=VrE0GoAsjY8" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="wanted.jpg" />	
+	</item>
+	<item>
+		<media:text>Step Up 2 The Streets</media:text>
+		<media:content url="http://www.youtube.com/watch?v=RiWKluUFvl0" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="stepup.jpg" />
+	</item>
+	<item>
+		<media:text>Hellboy 2</media:text>
+		<media:content url="http://www.youtube.com/watch?v=642WvqRz5uw" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="hellboy.jpg" />
+	</item>
+	<item>
+		<media:text>Hancock</media:text>
+		<media:content url="http://www.youtube.com/watch?v=eKWeF-l1yx0" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="hancock.jpg" />
+	</item>
+	<item>
+		<media:text>Quantum of Solace</media:text>
+		<media:content url="http://www.youtube.com/watch?v=K6MoAm6Rook" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="quantumofsolace.jpg" />
+	</item>	
+	<item>
+		<media:text>Harry Potter and The Order of The Phoenix</media:text>
+		<media:content url="http://www.youtube.com/watch?v=ybPl2ipLVmk" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="harrypotterandtheorderofthephoenix.jpg" />
+	</item>
+	<item>
+		<media:text>Die Hard 4</media:text>
+		<media:content url="http://www.youtube.com/watch?v=p2hQTNoR_sg" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="diehard.jpg" />
+	</item>
+	<item>
+		<media:text>National Treasure 2</media:text>
+		<media:content url="http://www.youtube.com/watch?v=6XeRUjEni9c" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="nationaltreasure.jpg" />
+	</item>
+	<item>
+		<media:text>10,000 BC</media:text>
+		<media:content url="http://www.youtube.com/watch?v=Cs54zFf_niQ" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="10000bc.jpg" />
+	</item>	
+	<item>
+		<media:text>Untraceable</media:text>
+		<media:content url="http://www.youtube.com/watch?v=JVGgxW7qcl0" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="untraceable.jpg" />
+	</item>
+	<item>
+		<media:text>Forbidden Kingdom</media:text>
+		<media:content url="http://www.youtube.com/watch?v=GlqEIWC3kvk" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="forbiddenkingdom.jpg" />
+	</item>	
+	<item>
+		<media:text>The X-Files - I Want To Believe</media:text>
+		<media:content url="http://www.youtube.com/watch?v=afOIOBQzMLQ" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="xfiles.jpg" />
+	</item>	
+	<item>
+		<media:text>James Bond - Casino Royale</media:text>
+		<media:content url="http://www.youtube.com/watch?v=390v_e4dRjQ" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="casinoroyale.jpg" />
+	</item>
+	<item>
+		<media:text>Vantage Point</media:text>
+		<media:content url="http://www.youtube.com/watch?v=B0Icfshf61w" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="vantagepoint.jpg" />
+	</item>
+	<item>
+		<media:text>Surf's Up</media:text>
+		<media:content url="http://www.youtube.com/watch?v=aQlaYKbLB54" type="video/x-flv" width="480" height="360" />
+		<media:thumbnail url="surfup.jpg" />
+	</item>	
+
+</gallery>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery xmlns:media="http://search.yahoo.com/mrss/">	
+	<settings>
+		<mediaFolder type="large" media="video">video/</mediaFolder>
+		<mediaFolder type="thumbnail" media="video">video/thumbs/</mediaFolder>
+		<mediaFolder type="large" media="swf">video/</mediaFolder>
+		<mediaFolder type="thumbnail" media="swf">video/thumbs/</mediaFolder>
+		<mediaFolder type="large" media="image">wallimages/</mediaFolder>
+		<mediaFolder type="thumbnail" media="image">wallimages/thumbs/</mediaFolder>
+	</settings>	
+
+	<item favourite="yes">
+		<media:text>Tooltip 1</media:text>
+		<media:content url="1.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 2</media:text>
+		<media:content url="3.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 3</media:text>
+		<media:content url="5.jpg" type="image/jpeg" width="375" height="500" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 4</media:text>
+		<media:content url="6.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 5</media:text>
+		<media:content url="7.jpg" type="image/jpeg" width="375" height="500" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 6</media:text>
+		<media:content url="8.jpg" type="image/jpeg" width="375" height="500" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 7</media:text>
+		<media:content url="9.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 8</media:text>
+		<media:content url="10.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 9</media:text>
+		<media:content url="11.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 10</media:text>
+		<media:content url="12.jpg" type="image/jpeg" width="375" height="500" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 11</media:text>
+		<media:content url="13.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 12</media:text>
+		<media:content url="14.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 13</media:text>
+		<media:content url="15.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 14</media:text>
+		<media:content url="16.jpg" type="image/jpeg" width="500" height="375" />
+	</item favourite="yes">
+	<item favourite="yes">
+		<media:text>Tooltip 15</media:text>
+		<media:content url="17.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 16</media:text>
+		<media:content url="18.jpg" type="image/jpeg" width="375" height="500" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 17</media:text>
+		<media:content url="19.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 18</media:text>
+		<media:content url="20.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 19</media:text>
+		<media:content url="22.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 20</media:text>
+		<media:content url="23.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 21</media:text>
+		<media:content url="24.jpg" type="image/jpeg" width="500" height="443" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 22</media:text>
+		<media:content url="27.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 23</media:text>
+		<media:content url="28.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 24</media:text>
+		<media:content url="29.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 25</media:text>
+		<media:content url="30.jpg" type="image/jpeg" width="375" height="500" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 26</media:text>
+		<media:content url="31.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 27</media:text>
+		<media:content url="32.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 28</media:text>
+		<media:content url="33.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 29</media:text>
+		<media:content url="34.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item favourite="yes">
+		<media:text>Tooltip 30</media:text>
+		<media:content url="35.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+</gallery>

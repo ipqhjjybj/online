@@ -31,11 +31,11 @@ class OnlineSQL{
 		if($result){
 			if($this -> Debug){
 				echo "successily delete in ".$type."<br/>";	
-				return 1;
+				
 			}
+			return true;
 		}else{
-			echo "failed to deleted in ".$this->pre.$type." database!<br/>";
-			exit;
+			return false;
 		}
 	}
 	protected function update($table,$type,$to_date,$accor,$acc_val){
